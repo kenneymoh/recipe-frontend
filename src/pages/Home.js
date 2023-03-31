@@ -4,6 +4,7 @@ import NavBar from '../components/commons/Navbar'
 import Main from './Main'
 
 
+
 function Home() {
   return (
     <div>
