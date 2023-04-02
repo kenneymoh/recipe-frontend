@@ -66,36 +66,9 @@ export default function NavBar() {
 
                         </ul>
 
-                        {/* <div className="mt-3 space-y-2 lg:hidden md:inline-block">
-                        <a
-                            href="javascript:void(0)"
-                            className="inline-block w-full px-4 py-2 text-center text-white bg-gray-600 rounded-md shadow hover:bg-gray-800"
-                        >
-                            Sign in
-                        </a>
-                        <a
-                            href="javascript:void(0)"
-                            className="inline-block w-full px-4 py-2 text-center text-gray-800 bg-white rounded-md shadow hover:bg-gray-100"
-                        >
-                            Sign up
-                        </a>
-                        </div> */}
                     </div>
                 </div>
-                {/* <div className="hidden space-x-2 md:inline-block">
-                    <a
-                        href="javascript:void(0)"
-                        className="px-4 py-2 text-white bg-gray-600 rounded-md shadow hover:bg-gray-800"
-                    >
-                        Sign in
-                    </a>
-                    <a
-                        href="javascript:void(0)"
-                        className="px-4 py-2 text-gray-800 bg-white rounded-md shadow hover:bg-gray-100"
-                    >
-                        Sign up
-                    </a>
-                </div> */}
+                
                 <div className='md:flex md:space-x-4 md:inline-block'>
                     <div className='px-4 py-1 text-white bg-gray-600 rounded-md shadow hover:bg-gray-100'>
                         <router-link to="/login" class="text-white hover:bg-gray-700 px-3 rounded py-1">Login</router-link>
